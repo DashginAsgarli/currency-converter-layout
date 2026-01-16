@@ -7,7 +7,7 @@ let activeRight = document.querySelector(".converter-column:last-child .currency
 let leftBox = document.querySelector(".exchange-rate span");
 let rightBox = document.querySelector(".balance-info span");
 let allİnput = document.querySelectorAll("input");
-let wifi = document.querySelector(".connection-status .status-indicator");
+let wifi = document.querySelector(".status-indicator");
 wifi.style.display = "none"
 
 //Inputa yazilanlar duzgunluyun yoxlayiram nöqtə və reqemlerden başqa heçnə daxil etmək olmur  
@@ -50,7 +50,8 @@ function change() {
         rightBox.innerHTML = `1 ${to} = 1 ${from}`;
     }
     else {
-        fetch(`https://api.exchangerate.host/convert?access_key=ab0f0da4af31941c601d3095ff44c34c&from=${from}&to=${to}&amount=${amount}`)
+        fetch(``)
+        // https://api.exchangerate.host/convert?access_key=ab0f0da4af31941c601d3095ff44c34c&from=${from}&to=${to}&amount=${amount}
             .then(res => res.json())
             .then(data => {
                 output.value = data.result.toFixed(5);
