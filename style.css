@@ -277,10 +277,6 @@ main {
     font-size: 0.9rem;
 }
 
-.convert-btn-container {
-    text-align: center;
-    margin-top: 2rem;
-}
 
 .convert-btn {
     background: linear-gradient(90deg, #4fc3f7, #2979ff);
