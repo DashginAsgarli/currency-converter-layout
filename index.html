@@ -11,56 +11,118 @@
 
 <body>
     <header>
-        <img src="./img/img1.svg" alt="bank-logo" class="logo">
-        <ul class="list">
-            <li><a href="#">BANK</a></li>
-            <li><a href="#">BİZNES</a></li>
-            <li><a href="#">İNVESTİSİYALAR</a></li>
-            <li><a href="#">SIĞORTA</a></li>
-            <li><a href="#">MOBİL</a></li>
-            <li><a href="#">SƏFƏRLƏR</a></li>
-            <li><a href="#">ƏYLƏNCƏ</a></li>
-        </ul>
-        <div class="login">GİRİŞ</div>
-    </header>
+        <div class="header-container">
+            <img src="./img/img1.svg" alt="bank-logo" class="logo">
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="#">BANK</a></li>
+                    <li><a href="#">BİZNES</a></li>
+                    <li><a href="#">İNVESTİSİYALAR</a></li>
+                    <li><a href="#">SIĞORTA</a></li>
+                    <li><a href="#">MOBİL</a></li>
+                    <li><a href="#">SƏFƏRLƏR</a></li>
+                    <li><a href="#">ƏYLƏNCƏ</a></li>
+                </ul>
+            </nav>
+            <div class="login-btn">GİRİŞ</div>
+        </div>
 
+    </header>
     <main>
-        <h1>Onlayn valyuta çeviricisi</h1>
-        <div class="container">
-            <div class="column">
-                <p>Məndə var</p>
-                <div class="unit left-unit">
-                    <p class="color">RUB</p>
-                    <p>USD</p>
-                    <p>EUR</p>
-                    <p>GBP</p>
+        <div class="main-container">
+            <h1 class="main-title">Onlayn valyuta çeviricisi</h1>
+
+            <div class="converter-container">
+                <div class="converter-column">
+                    <div class="column-header">
+                        <p class="column-title">Məndə var</p>
+                        <div class="currency-selector">
+                            <button class="currency-option active">RUB</button>
+                            <button class="currency-option">USD</button>
+                            <button class="currency-option">EUR</button>
+                            <button class="currency-option">GBP</button>
+                        </div>
+                    </div>
+                    <div class="input-section">
+                        <input type="text" class="currency-input left-input" placeholder="0.00">
+                    </div>
+                    <div class="balance-info">
+                        <span>Balans: 15,000.00 RUB</span>
+                    </div>
                 </div>
-                <div class="box">
-                    <input type="text" class="left-input">
-                    <div class="left-box"></div>
+
+                <div class="swap-icon">
+                    <i class="bi bi-arrow-left-right"></i>
+                </div>
+
+                <div class="converter-column">
+                    <div class="column-header">
+                        <p class="column-title">Əldə etmək istəyirəm</p>
+                        <div class="currency-selector">
+                            <button class="currency-option">RUB</button>
+                            <button class="currency-option active">USD</button>
+                            <button class="currency-option">EUR</button>
+                            <button class="currency-option">GBP</button>
+                        </div>
+                    </div>
+                    <div class="input-section">
+                        <input type="text" class="currency-input right-input" placeholder="0.00">
+                    </div>
+                    <div class="exchange-rate">
+                        <span>1 RUB = 0.011 USD</span>
+                    </div>
                 </div>
             </div>
-            <div class="column">
-                <p>Əldə etmək istəyirəm</p>
-                <div class="unit right-unit">
-                    <p>RUB</p>
-                    <p class="color">USD</p>
-                    <p>EUR</p>
-                    <p>GBP</p>
-                </div>
-                <div class="box">
-                    <input type="text" class="right-input">
-                    <div class="right-box"></div>
-                </div>
+
+
+        </div>
+
+
+        <div class="info-grid">
+            <div class="info-card">
+                <i class="bi bi-lightning-charge"></i>
+                <h3>Sürətli Əməliyyat</h3>
+                <p>Valyuta dəyişikliyi bir neçə saniyə ərzində</p>
             </div>
+            <div class="info-card">
+                <i class="bi bi-shield-check"></i>
+                <h3>100% Təhlükəsiz</h3>
+                <p>Bank səviyyəsində təhlükəsizlik</p>
+            </div>
+            <div class="info-card">
+                <i class="bi bi-cash-stack"></i>
+                <h3>Ən Yaxşı Məzənnə</h3>
+                <p>Bazar məzənnələri ilə müqayisə</p>
+            </div>
+            <div class="info-card">
+                <i class="bi bi-headset"></i>
+                <h3>24/7 Dəstək</h3>
+                <p>Hər zaman kömək üçün buradayıq</p>
+            </div>
+        </div>
+
+        <div class="convert-btn-container">
+            <button class="convert-btn">
+                <i class="bi bi-currency-exchange"></i>
+                VALYUTANI ÇEVİR
+            </button>
+        </div>
         </div>
     </main>
     <footer>
-        <div class="wifi-container">
-            <div class="internet">
-                <div class="internet-div">
-                    <i class="bi bi-wifi-off"></i>
-                    <div class="wifi-text">İnternet yoxdur</div>
+        <div class="footer-container">
+            <div class="connection-status">
+                <div class="status-indicator">
+                    <i class="bi bi-wifi"></i>
+                    <span>Onlayn bağlantı aktivdir</span>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 Bank. Bütün hüquqlar qorunur.</p>
+                <div class="footer-links">
+                    <a href="#">Məxfilik Siyasəti</a>
+                    <a href="#">İstifadə Şərtləri</a>
+                    <a href="#">Kömək</a>
                 </div>
             </div>
         </div>
