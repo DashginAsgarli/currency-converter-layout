@@ -50,7 +50,7 @@ function change() {
         rightBox.innerHTML = `1 ${to} = 1 ${from}`;
     }
     else {
-        fetch(`https://api.exchangerate.host/convert?access_key=9edfbed82a74b6fc2d52f2509a0b465f&from=${from}&to=${to}&amount=${amount}`)
+        fetch(`https://api.exchangerate.host/convert?access_key=ab0f0da4af31941c601d3095ff44c34c&from=${from}&to=${to}&amount=${amount}`)
             .then(res => res.json())
             .then(data => {
                 output.value = data.result.toFixed(5);
