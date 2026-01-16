@@ -278,16 +278,6 @@ main {
 }
 
 
-
-.convert-btn:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 12px 30px rgba(79, 195, 247, 0.5);
-}
-
-.convert-btn:active {
-    transform: translateY(-1px);
-}
-
 footer {
     background: #1a237e;
     color: white;
