@@ -278,21 +278,6 @@ main {
 }
 
 
-.convert-btn {
-    background: linear-gradient(90deg, #4fc3f7, #2979ff);
-    color: white;
-    border: none;
-    padding: 1.2rem 3rem;
-    font-size: 1.2rem;
-    font-weight: 600;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    display: inline-flex;
-    align-items: center;
-    gap: 1rem;
-    box-shadow: 0 8px 25px rgba(79, 195, 247, 0.4);
-}
 
 .convert-btn:hover {
     transform: translateY(-3px);
