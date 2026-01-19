@@ -37,6 +37,7 @@ Platforma sadə interfeys, sürətli hesablamalar və aktual valyuta məlumatlar
 ## 📸 Ekran Görüntüləri
 ![Home](./img/image.png)
 ![Footer](./img/image-ip.png)
+
 ---
 ## ⚠️ Məlumat
 
