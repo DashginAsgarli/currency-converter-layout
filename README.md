@@ -27,6 +27,21 @@ Platforma sadə interfeys, sürətli hesablamalar və aktual valyuta məlumatlar
 - **Versiya Kontrolu:** Git & GitHub  
 ---
 
+## 🔌 İstifadə Olunan API
+
+| API | İstifadə |
+|----|---------|
+| [Exchangerate.host](https://exchangerate.host/#/#docs) | Valyuta məzənnələrinin əldə olunması |
+
+---
+## ⚠️ Məlumat
+
+Bu layihədə istifadə olunan API-lər **sorğu limitinə** malikdir. Limit dolduqda tətbiq müvəqqəti olaraq **məlumat qaytarmaya bilər** və ya **xəta baş verə bilər**.
+
+Bu halda:
+- Bir müddət sonra yenidən cəhd edin  
+- Və ya şəxsi API açarı istifadə edin
+---
 ## 📞 Əlaqə
 
 Layihə ilə bağlı sual və ya təklifləriniz üçün:
