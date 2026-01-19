@@ -47,6 +47,19 @@ Bu halda:
 - Bir müddət sonra yenidən cəhd edin  
 - Və ya şəxsi API açarı istifadə edin
 ---
+
+## 🤝 Contributing
+
+Töhfələr açıqdır. Fork edib pull request göndərə bilərsiniz.
+
+---
+## 🛣️ Roadmap
+
+- [ ] İstifadəçi login sistemi
+- [ ] Favorit valyutalar
+- [ ] Tarixi məzənnələr
+
+---
 ## 📞 Əlaqə
 
 Layihə ilə bağlı sual və ya təklifləriniz üçün:
