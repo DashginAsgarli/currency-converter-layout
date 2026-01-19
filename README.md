@@ -34,6 +34,10 @@ Platforma sadə interfeys, sürətli hesablamalar və aktual valyuta məlumatlar
 | [Exchangerate.host](https://exchangerate.host/#/#docs) | Valyuta məzənnələrinin əldə olunması |
 
 ---
+## 📸 Ekran Görüntüləri
+![Home](./img/image.png)
+![Footer](./img/image-ip.png)
+---
 ## ⚠️ Məlumat
 
 Bu layihədə istifadə olunan API-lər **sorğu limitinə** malikdir. Limit dolduqda tətbiq müvəqqəti olaraq **məlumat qaytarmaya bilər** və ya **xəta baş verə bilər**.
