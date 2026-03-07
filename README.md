@@ -32,13 +32,12 @@ A fast, real-time currency converter web app with a clean and user-friendly inte
 
 ## API Used
 
-| API | Usage |
-|-----|-------|
-| [Exchangerate.host](https://exchangerate.host/#/#docs) | Fetching live currency exchange rates |
+> API - [Exchangerate.host](https://exchangerate.host/#/#docs) - Fetching live currency exchange rates 
 
-> ⚠️ **Note:** The API used in this project has a **request limit**. If the limit is reached, the app may temporarily fail to return data or display an error. In that case, wait a moment and try again, or use a personal API key.
+>[!WARNING] 
+> The API used in this project has a **request limit**. If the limit is reached, the app may temporarily fail to return data or display an error. In that case, wait a moment and try again, or use a personal API key.
 
-<br>
+
 
 ## Getting Started
 
@@ -49,8 +48,8 @@ git clone https://github.com/DashginAsgarli/Project---Currency-converter-layout.
 # Open in browser
 open index.html
 ```
-
-> ⚡ No installation or dependencies required — runs directly in your browser.
+>[!NOTE]
+> No installation or dependencies required — runs directly in your browser.
 
 ---
 
