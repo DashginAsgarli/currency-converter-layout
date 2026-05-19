@@ -1,6 +1,6 @@
 <div>
 
-# 💱 Online Currency Converter
+# Online Currency Converter
 
 [![Live Demo](https://img.shields.io/badge/🌐%20Live%20Demo-View%20App-22c55e?style=for-the-badge)](https://dashginasgarli.github.io/Project---Currency-converter-layout/)
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-181717?style=for-the-badge&logo=github)](https://github.com/DashginAsgarli/Project---Currency-converter-layout)
@@ -15,10 +15,12 @@ A fast, real-time currency converter web app with a clean and user-friendly inte
 
 ## Features
 
-💵 &nbsp;Convert between a wide range of world currencies  
-🔄 &nbsp;Real-time exchange rates powered by live API data  
-📊 &nbsp;Simple, clean, and user-friendly interface  
-⚡ &nbsp;Fast calculations with instant results  
+<ul>
+  <li>Convert between a wide range of world currencies  </li>
+  <li>Real-time exchange rates powered by live API data </li>
+  <li>Simple, clean, and user-friendly interface  </li>
+  <li>Fast calculations with instant results </li>
+</ul>
 
 ---
 
